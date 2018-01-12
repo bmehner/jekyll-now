@@ -1,3 +1,7 @@
+---
+layout: post
+title: You're up and running!
+---
 I have tons of old letters, invoices and other stuff printed on good old paper. The stuff piles up and can be
 found everywhere around our house. Of course some of this stuff is more or less obsolete. On the other hand
 some of these papers are really, really important like insurance policies. A while ago I started thinking about which of
