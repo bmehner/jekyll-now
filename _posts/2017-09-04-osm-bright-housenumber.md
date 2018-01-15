@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Map Style OSM Bright With House Numbers
+title: Map Style 'OSM Bright' With House Numbers
 ---
 I really like the map style ["OSM Bright"](https://github.com/mapbox/osm-bright). It is very clean and concentrates on the important stuff in a map. It is not overloaded with a lot of POIs. But unfortunately it lacks one feature which is very important for me: house numbers.
 
