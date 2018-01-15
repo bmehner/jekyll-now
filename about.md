@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am developer living and working in Germany. 
 
-### More Information
+### Blogging in Engllish? Why?
 
-A place to include any other types of information that you'd like to include about yourself.
+Basically there are three reasons:
+
+1. Reaching more people
+1. Practicing my English
+1. Proving my English (to others)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nospam@mehner-technologies.de](mailto:nospam@mehner-technologies.de)
