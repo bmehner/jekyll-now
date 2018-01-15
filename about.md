@@ -6,7 +6,7 @@ permalink: /about/
 
 I am developer living and working in Germany. 
 
-### Blogging in Engllish? Why?
+### Blogging in English? Why?
 
 Basically there are three reasons:
 
