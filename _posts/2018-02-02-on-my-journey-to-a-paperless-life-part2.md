@@ -18,13 +18,13 @@ After I started to scan every document and make them searchable with the help of
 
 1. **Everything in one place**: If the shit hits the fan and all data at home is lost some how I need fast access to the data. It is not suitable to spread the data over different storages.
 
-1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducible. This includes all fotos and videos.
+1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducible. This includes all personal fotos and videos.
 
-1. **Protection against Ransomware**: I want it out of the house. Basically every synching cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage.
+1. **Protection against Ransomware**: The solution should provide protection against loosing files to encryption by Ransomware. Ransomware should have no access to the storage of the backup. Otherwise it would also encrypt my backup. I want to swipe my Computer, reinstall and then recover my data from backup.
 
 Just backing up data to the cloud storage is actually a no-brainer. A solution that meets all the above requirements proved to be a lot trickier.
 
-Dropbox for example would provide an easy to use cloud storage. It provides also a backup option so it would be suitable to protect the data against Ransomware. The backup option doubles the required storage which raised the costs of the solution. This maybe would have been tolerable. Unfortunately Dropbox does not support encryption of the data. Every solution I found which adds encryption to dropbox had one or more other disadvantages that made the solution unsuitable. 
+Dropbox for example would provide an easy to use cloud storage. It provides also a backup option so it would be suitable to protect the data against Ransomware. The backup option doubles the required storage which raises the costs of the solution. This maybe would have been tolerable. Unfortunately Dropbox does not support encryption of the data. Every solution I found which adds encryption to dropbox had one or more other disadvantages that made the solution unsuitable. 
 
 Cloud storages with integrated encryption are rare and usually quite expensive. I had one possible provider but it went out of service before I was able to use it. Also the required space would have been too expensive.
 
@@ -38,4 +38,8 @@ With this you perform a full backup on the first call and an incremantal backup 
 
     duplicity /home/me ssh://uid@other.host/some_dir 
 
-Its supports options for excluding files and other useful stuff. 
+Duplicity puts files in different tar archives of roughly the same size. Then it encrypts those files with gpg. After that it sends the file to the specified storage. Its supports options for excluding files. There are also a bunch of commands that help you manage your archive like verifying, listing, removing and of course recovering files. I had found my tool for the backup. 
+
+What was left was the decision where to store the backup. With Duplicity I had a lot of options now. I could even use Dropbox as it is supported. There were only two decisive criteria left: security and of course the price.
+
+The winner finally was Strato HiDrive. The cost are 2,50 € for 250 GB per month. And it supports a bunch of ways to connect to it. One of them is ssh. So login and passwords are sufficiently protected. Additional all the servers are located in Germany where I live and are covered by German jurisdiction. I did not feel comfortable to 
