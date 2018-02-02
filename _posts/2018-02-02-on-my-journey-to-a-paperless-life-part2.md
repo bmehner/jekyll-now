@@ -24,7 +24,7 @@ After I started to scan every document and make them searchable with the help of
 
 Just backing up data to the cloud storage is actually a no-brainer. A solution that meets all the above requirements proved to be a lot trickier.
 
-Dropbox for example would provide an easy to use cloud storage. It provides also a backup option so it would be suitable to protect the data against Ransomware. The backup option doubles the required storage which raised the costs of the solution. This would have been maybe tolerable. Unfortunately Dropbox does not support encryption of the data. Every solution I found which adds encryption to dropbox had one or more other disadvantages which made the solution unsuitable. 
+Dropbox for example would provide an easy to use cloud storage. It provides also a backup option so it would be suitable to protect the data against Ransomware. The backup option doubles the required storage which raised the costs of the solution. This maybe would have been tolerable. Unfortunately Dropbox does not support encryption of the data. Every solution I found which adds encryption to dropbox had one or more other disadvantages that made the solution unsuitable. 
 
 Cloud storages with integrated encryption are rare and usually quite expensive. I had one possible provider but it went out of service before I was able to use it. Also the required space would have been too expensive.
 
