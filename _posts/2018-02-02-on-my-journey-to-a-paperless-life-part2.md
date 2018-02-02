@@ -18,4 +18,4 @@ After I started to scan every document and make them searchable with the help of
 
 1. **Big Enough to store 250GB of data**: Everything should be safe which is not easily reproducable. This includes all fotos and videos.
 
-1. **Backup to the cloud but no always-on backup**: I want it out of the house. So basically every cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage. Many cloud providers give you the possibility to activate a backup / versioning of your files in the cloud. But this doubles the amount of cloud storage needed which rises costs.
+1. **No synching cloud storage**: I want it out of the house. So basically every cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage. Many cloud providers give you the possibility to activate a backup / versioning of your files in the cloud. But this doubles the amount of cloud storage needed which rises costs.
