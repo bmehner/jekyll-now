@@ -2,7 +2,6 @@
 layout: post
 title: On My Journey To A Paperless Life Part II: Backup
 ---
-
 In my post about [My Journey To A Paperless Life](https://bmehner.github.io/on-my-journey-to-a-paperless-life/) I wrote about how I digitalize all my documents. The initial intention of this was to have a copy of everything important document outside our house. The blog post ends with the sentence "And of course the most important thing: Backing up these documents in the cloud is now a no-brainer." But is it really a no-brainer? Yes and no.
 
 After I started to scan every document and make them searchable with the help of OCR the amount of scanned files increased rapidly. I began to think about the backup part of my journey to a paperless life. I came up with a bunch of requirements:
