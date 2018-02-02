@@ -20,7 +20,7 @@ After I started to scan every document and make them searchable with the help of
 
 1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducible. This includes all personal fotos and videos.
 
-1. **Storage in Germany**: I want my data to be under German jurisdiction. Many countries deal with foreigners diffrent than with nationals. Well known example are the US and even Germany. I feel not comfortable using storage outside Germany.
+1. **Storage in Germany**: I want my data to be under German jurisdiction. Many countries deal with foreigners different than with nationals. Well known examples are the US and even Germany. I feel not comfortable using storage outside Germany.
 
 1. **Protection against Ransomware**: The solution should provide protection against loosing files to encryption by Ransomware. Ransomware should have no access to the storage of the backup. Otherwise it would also encrypt my backup.
 
