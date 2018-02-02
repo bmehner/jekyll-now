@@ -18,7 +18,7 @@ After I started to scan every document and make them searchable with the help of
 
 1. **Everything in one place**: If the shit hits the fan and all data at home is lost some how I need fast access to the data. It is not suitable to spread the data over different storages.
 
-1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducable. This includes all fotos and videos.
+1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducible. This includes all fotos and videos.
 
 1. **Protection against Ransomware**: I want it out of the house. Basically every synching cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage.
 
