@@ -32,7 +32,10 @@ So I struggled a long time to find the ideal solution. In the meantime I used rs
 
 ## Duplicity And Strato HiDrive: Building Blocks Of A Solution
 
-Then I stumbled over Duplicity. It promised to backup files and encrypt them on the fly. Also it is based on rsync which is reliable and widely used. There are a lot storage providers that support it. 
+Then I stumbled over [Duplicity](http://duplicity.nongnu.org/). It promises to backup files and encrypt them on the fly. Also it is based on rsync which is reliable and widely used. It supports a ton of different types of storages like ssh/scp, WebDAV, Amazon S3, Google Drive and so on.
 
+With this you perform a full backup on the first call and an incremantal backup on each following call:
 
+    duplicity /home/me ssh://uid@other.host/some_dir 
 
+Its supports options for excluding files and other useful stuff. 
