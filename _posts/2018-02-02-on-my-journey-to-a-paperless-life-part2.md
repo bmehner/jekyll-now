@@ -2,7 +2,7 @@
 layout: post
 title: On My Journey To A Paperless Life Part II - Backup
 ---
-In my post about [My Journey To A Paperless Life](https://bmehner.github.io/on-my-journey-to-a-paperless-life/) I wrote about how I digitalize all my documents. The initial intention of this was to have a copy of everything important document outside our house. The blog post ends with the sentence "And of course the most important thing: Backing up these documents in the cloud is now a no-brainer." But is it really a no-brainer? Yes and no.
+In my post about [My Journey To A Paperless Life](https://bmehner.github.io/on-my-journey-to-a-paperless-life/) I wrote about how I digitalize all my documents. The initial intention of this was to have a copy of everything important document outside our house. The blog post ends with the sentence "And of course the most important thing: Backing up these documents in the cloud is now a no-brainer." But is it really a no-brainer? Yes and no...
 
 ## Requirements For A Backup
 
