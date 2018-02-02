@@ -8,7 +8,7 @@ In my post about [My Journey To A Paperless Life](https://bmehner.github.io/on-m
 
 After I started to scan every document and make them searchable with the help of OCR the amount of scanned files increased rapidly. I began to think about the backup part of my journey to a paperless life. I came up with a bunch of requirements:
 
-1. **Out of the house**: The backup should survive our house burning down, being flooded or other elementary dangers. Collective hardware crashes due to voltage peaks caused by lightning or similar events should also be covered.
+1. **Offsite**: The backup should survive our house burning down, being flooded or other elementary dangers. Collective hardware crashes due to voltage peaks caused by lightning or similar events should also be covered.
 
 1. **Cost effective**: Cost should be below 10€/month.
 
