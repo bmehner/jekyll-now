@@ -3,8 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-I am developer living and working in Germany. 
+* Software developer living and working in Germany
+* Linux user, always, everywhere, even on the desktop
+* Father of a daughter
+* Likes bouldern, geocaching, having a life beside work
 
 ### Blogging in English? Why?
 
