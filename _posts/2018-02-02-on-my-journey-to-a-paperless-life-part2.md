@@ -14,13 +14,13 @@ After I started to scan every document and make them searchable with the help of
 
 1. **Automated and regular**: I do not want to think about it. I want it to be one thing less I have to care about.
 
-1. **Encrypted**: If I want to backup all important documents then this includes some fairly sensitive stuff: data on salary and taxes, account statements, insurance policies, pictures of my family and so on. So strong encryption is a must for the desired solution.
+1. **Encrypted**: If I want to backup all important documents then this includes some fairly sensitive stuff: data on salary and taxes, account statements, insurance policies, pictures of my family and so on. Strong encryption is a must for the desired solution.
 
-1. **Everything in one place**: If the shit hits the fan and all data at home is lost some how I need fast access to the data. So it is not suitable to spread the data over different storages.
+1. **Everything in one place**: If the shit hits the fan and all data at home is lost some how I need fast access to the data. It is not suitable to spread the data over different storages.
 
 1. **Big enough to store 250GB of data**: Everything should be safe which is not easily reproducable. This includes all fotos and videos.
 
-1. **Protection against Ransomware**: I want it out of the house. So basically every synching cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage.
+1. **Protection against Ransomware**: I want it out of the house. Basically every synching cloud storage like dropbox could do the trick. Unfortunately this does not protect you from Ransomware. The Ransomware would also encrypt the data in the cloud storage.
 
 Just backing up data to the cloud storage is actually a no-brainer. A solution that meets all the above requirements proved to be a lot trickier.
 
