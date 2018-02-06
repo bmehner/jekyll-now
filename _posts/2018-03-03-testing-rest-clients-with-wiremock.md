@@ -25,10 +25,10 @@ Text
                 .withRequestBody(matchingJsonPath("$.customer[?(@.customerId == '4711')]"))
                 .willReturn(okJson("{\"some\": \"value\"}")
                 )
-        );
-        
-        SomeClient someClient = new SomeClient("https://localhost:" + wireMockRule.port() + "/yourapp/your-local-url");
-        someClient.doRestCall();
+    );
 
-        verify(postRequestedFor(urlPathEqualTo("/your-local-url")));
+    SomeClient someClient = new SomeClient("https://localhost:" + wireMockRule.port() + "/yourapp/your-local-url");
+    someClient.doRestCall();
+
+    verify(postRequestedFor(urlPathEqualTo("/your-local-url")));
         
