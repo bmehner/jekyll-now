@@ -14,7 +14,6 @@ How does it work? Basically it fires up a Jetty server and provides you with a l
     public WireMockRule wireMockRule = new WireMockRule(
             WireMockConfiguration
                 .wireMockConfig()
-                .dynamicPort()
                 .dynamicHttpsPort()
         );
 
@@ -27,7 +26,7 @@ Text
                 )
     );
 
-    SomeClient someClient = new SomeClient("https://localhost:" + wireMockRule.port() + "/yourapp/your-local-url");
+    SomeClient someClient = new SomeClient("https://localhost:" + wireMockRule.httpsPort() + "/yourapp/your-local-url");
     someClient.doRestCall();
 
     verify(postRequestedFor(urlPathEqualTo("/your-local-url")));
