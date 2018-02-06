@@ -6,7 +6,12 @@ title: Testing Rest Clients With Wiremock
 Text
 
     @Rule
-    public WireMockRule wireMockRule = new WireMockRule(WireMockConfiguration.wireMockConfig().dynamicPort().dynamicHttpsPort());
+    public WireMockRule wireMockRule = new WireMockRule(
+            WireMockConfiguration
+                .wireMockConfig()
+                .dynamicPort()
+                .dynamicHttpsPort()
+        );
 
 Text
 
