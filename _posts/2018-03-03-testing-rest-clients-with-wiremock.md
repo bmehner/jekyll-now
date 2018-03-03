@@ -21,6 +21,7 @@ To use WireMock in your unit tests simply add the following jUnit-Rule to your t
 
 This Rule takes care of setting the server up for you. It supports a bunch of options. You can specify fixed ports for HTTP and HTTPs for example. Alternatively you can use a dynamic port like in the example above. This way WireMock determines a free port dynamically on your machine and binds the Jetty server to it. I recommend using dynamic ports if you run your tests in a CI environment. If you use fixed ports you can run into trouble from time to time if builds are running in parallel on your CI server.
 
+
 Your actual test now looks something like this:
 
     stubFor(post(urlPathEqualTo("/your-local-url"))
