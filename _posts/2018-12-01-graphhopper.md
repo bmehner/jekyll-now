@@ -71,7 +71,7 @@ if (!response.hasErrors()) {
 
 In the request you need to set the coordinates of your starting point and of your destination. In the example above we also want the fastest route by car. 
 
-By default GraphHopper's result contains some meta data for the routing like distance and duration for the route. It also contains a list of instructions ("Turn left into Blabla street"), way points and so on. it provides you with all the information needed to plot results like this for your users:
+By default GraphHopper's result contains some meta data for the routing like distance and duration for the route. It also contains a list of instructions ("Turn left into Blabla street"), way points and so on. It provides you with all the information needed to plot results like this for your users:
 
 ![GraphHopper-Result](/images/GraphHopper_Result.png)
 
