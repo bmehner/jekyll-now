@@ -77,7 +77,7 @@ By default GraphHopper's result contains some meta data for the routing like dis
 
 In our usecase we did not need the full blown result. We were mainly interested in the distance. This is why we added some hints to the request in the example above. It tells GraphHopper to suppress the instructions and the waypoints which speeds up the calculation to some extend.
 
-If you want to test the amazing speed of GraphHopper online you can use the instance at https://graphhopper.com/maps/
+If you want to test the amazing speed of GraphHopper online you can use the instance at [GraphHopper Maps](https://graphhopper.com/maps/)
 
 ## TL;DR
 
@@ -85,6 +85,6 @@ GraphHopper is a very efficient replacement for the Google Directions API which 
 
 ## References
 
- * GraphHopper Main Site: https://www.graphhopper.com/
- * GraphHopper Routing Engine: https://github.com/graphhopper/graphhopper
- * Try GraphHopper Online: https://graphhopper.com/maps/
+ * [GraphHopper Main Site](https://www.graphhopper.com/)
+ * [GraphHopper Routing Engine](https://github.com/graphhopper/graphhopper)
+ * [Try GraphHopper Online](https://graphhopper.com/maps/)
