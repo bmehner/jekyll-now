@@ -20,7 +20,7 @@ GraphHopper fullfills all this requirements. It's a routing engine implemented i
 
 If you are using Maven you can import GraphHopper like this:
 
-````XML
+````
 <dependency>
      <groupId>com.graphhopper</groupId>
      <artifactId>graphhopper-core</artifactId>
@@ -31,7 +31,7 @@ If you are using Maven you can import GraphHopper like this:
 
 In order to use it you have to create an instance of GraphHopper, configure it and load the data from an OSM file.
 
-````Java
+````
 GraphHopper graphHopper = new GraphHopper().forServer();
 graphHopper.setMemoryMapped();
 graphHopper.setDataReaderFile(PATH_TO_OSM_FILE);
@@ -49,7 +49,7 @@ In the example above indexes are created for the shortest and the fastest routes
 
 After the instance is created it is ready for some requests:
 
-````Java
+````
 GHRequest request = 
      new GHRequest(startingPointLatitude, startingPointLongitude, 
                destinationLatitude, destinationLongitude)
