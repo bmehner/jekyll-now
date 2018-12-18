@@ -12,9 +12,9 @@ In one of my recent projects we needed to calculate the distance between an addr
 * Easy to use from a Java application
 * Fast calculation: The list of car repair shops could be as long as 60 different ones. The distance to all of those should be calculated in less than 5 seconds.
 * No personal information should be sent to a third party because we need to stick to the General Data Protection Regulation of the EU.
-* Exact calculation of the distance as the car drives.
+* Calculation of the distance as the car drives.
 
-GraphHopper fullfills all this requirements. It's a routing engine implemented completely in Java. You can run it embbedded in your Java application. So there is no need to send any information over the network. It's also extremly fast.
+GraphHopper fullfills all this requirements. It's a routing engine implemented in Java. You can run it embbedded in your Java application. So there is no need to send any information over the network. It's also extremely fast. It uses data from OpenStreetMap (OSM). Here in Germany the quality of OSM is quite decent. My experiments with it shows it is sufficient for the usecase mentioned above.
 
 ## Maven
 
@@ -27,19 +27,27 @@ If you are using Maven you can import GraphHopper like this:
      <version>0.11.0</version>
 </dependency>
 ````
-## Usage
+## Initialization
+
+In order to use it you have to create an instance of GraphHopper, configure it and load the data from an OSM file.
 
 ````Java
 GraphHopper graphHopper = new GraphHopper().forServer();
 graphHopper.setMemoryMapped();
-graphHopper.setDataReaderFile(OSM_FILE.getAbsolutePath());
-graphHopper.setGraphHopperLocation(GRAPHHOPPER_WORKINGDIR.getAbsolutePath());
+graphHopper.setDataReaderFile(PATH_TO_OSM_FILE);
+graphHopper.setGraphHopperLocation(PATH_TO_GRAPHHOPPER_WORKINGDIR);
 graphHopper.setEncodingManager(new EncodingManager(FlagEncoderFactory.CAR));
 graphHopper.getCHFactoryDecorator().setWeightingsAsStrings("shortest", "fastest");
 graphHopper.clean();
 graphHopper.importOrLoad();
 ````
+The specified working directory must be writable for GraphHopper. On the first start GraphHopper reads the OSM-File and creates some custom indexes in this working directory. Depending on the size of the OSM file you are using this process will take a considerable amount of time and is also quite heavy in resource consumption. Quite some amount of RAM and CPU is needed at that point in time. During subsequent starts GraphHopper uses the existing indexes and thus the startup is way faster.
 
+In the example above indexes are created for the shortest and the fastest routes by car. You have to consider your usecases here. You need to specify all the options for routings that you need later. GraphHopper constructs its indexes accordingly. If you omit for example the "shortest" weighting you can not search for the shortest route later. On the other hand the more things you configure here the longer the initialization will take. You have to do some tradeoffs here. If you want too much, it will take ages to initialize the data. Worst case your application runs out of memory.
+
+## Usage
+
+After the instance is created it is ready for some requests:
 
 ````Java
 GHRequest request = 
@@ -61,10 +69,7 @@ if (!response.hasErrors()) {
 }
 ````            
 
-
-
-
-
+In the request you need to set the coordinates of your starting point and of your destination. In the example above we also want the fastest route by car. 
 
 
 
