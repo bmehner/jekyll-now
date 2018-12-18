@@ -21,43 +21,44 @@ GraphHopper fullfills all this requirements. It's a routing engine implemented c
 If you are using Maven you can import GraphHopper like this:
 
 ````XML
-     <dependency>
-          <groupId>com.graphhopper</groupId>
-          <artifactId>graphhopper-core</artifactId>
-          <version>0.11.0</version>
-     </dependency>
+<dependency>
+     <groupId>com.graphhopper</groupId>
+     <artifactId>graphhopper-core</artifactId>
+     <version>0.11.0</version>
+</dependency>
 ````
 ## Usage
 
 ````Java
-        GraphHopper graphHopper = new GraphHopper().forServer();
-        graphHopper.setMemoryMapped();
-        graphHopper.setDataReaderFile(OSM_FILE.getAbsolutePath());
-        graphHopper.setGraphHopperLocation(GRAPHHOPPER_WORKINGDIR.getAbsolutePath());
-        graphHopper.setEncodingManager(new EncodingManager(FlagEncoderFactory.CAR));
-        graphHopper.getCHFactoryDecorator().setWeightingsAsStrings("shortest", "fastest");
-        graphHopper.clean();
-        graphHopper.importOrLoad();
+GraphHopper graphHopper = new GraphHopper().forServer();
+graphHopper.setMemoryMapped();
+graphHopper.setDataReaderFile(OSM_FILE.getAbsolutePath());
+graphHopper.setGraphHopperLocation(GRAPHHOPPER_WORKINGDIR.getAbsolutePath());
+graphHopper.setEncodingManager(new EncodingManager(FlagEncoderFactory.CAR));
+graphHopper.getCHFactoryDecorator().setWeightingsAsStrings("shortest", "fastest");
+graphHopper.clean();
+graphHopper.importOrLoad();
 ````
 
 
 ````Java
-              GHRequest request = 
-                new GHRequest(startingPointLatitude, startingPointLongitude, destinationLatitude, destinationLongitude)
-                        .setWeighting("fastest")
-                        .setVehicle("car");
+GHRequest request = 
+     new GHRequest(startingPointLatitude, startingPointLongitude, 
+               destinationLatitude, destinationLongitude)
+          .setWeighting("fastest")
+          .setVehicle("car");
 
-                HintsMap hints = request.getHints();
-                hints.put("instructions", false);
-                hints.put("calcPoints", false);
+HintsMap hints = request.getHints();
+hints.put("instructions", false);
+hints.put("calcPoints", false);
 
-                GHResponse response = graphHopper.route(request);
+GHResponse response = graphHopper.route(request);
 
-                if (!response.hasErrors()) {
-                    double distance = response.getBest().getDistance();
-                } else {
-                    ...
-                }
+if (!response.hasErrors()) {
+     double distance = response.getBest().getDistance();
+} else {
+     ...
+}
 ````            
 
 
