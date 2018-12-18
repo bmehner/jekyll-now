@@ -3,7 +3,7 @@ layout: post
 title: Using GraphHopper For Routing With Data From OpenStreetMap
 ---
 
-If you want to do routing in your application (the kind of routing that involves streets, crossing, ...) you can use for example [Googles Direction API](https://developers.google.com/maps/documentation/directions/intro). It's quality is unmatched and it is usually a very good solution for a lot of requirements. But there are some downsides. Google allows only a limited amount of requests. It is a WebService, so there is some overhead for all the network stuff going on. And last but not least if you have to send personal information like the addresses of your customers you might be violating the General Data Protection Regulation of the EU. So it might be good to have an alternative. One of those alternatives is GraphHopper. This software and its usage is the subject of this post.
+If you want to do routing in your application (the kind of routing that involves streets, crossings, etc.) you can use for example [Googles Direction API](https://developers.google.com/maps/documentation/directions/intro). Its quality is unmatched and it is usually a very good solution for a lot of requirements. But there are some downsides. Google allows only a limited amount of requests. It is a WebService, so there is some overhead for all the network stuff going on. And last but not least if you have to send personal information like the addresses of your customers you might be violating the General Data Protection Regulation of the EU. So it might be good to have an alternative. One of those alternatives is GraphHopper. This software and its usage is the subject of this post.
 
 ![GraphHopper-Logo](/images/graphhopper-logo-small-300x51.png)
 
