@@ -73,7 +73,7 @@ In the request you need to set the coordinates of your starting point and of you
 
 By default GraphHopper's result contains some meta data for the routing like distance and duration for the route. It also contains a list of instructions ("Turn left into Blabla street"), way points and so on. it provides you with all the information needed to plot results like this for your users:
 
-
+![GraphHopper-Result](/images/GraphHopper_Result.png)
 
 In our usecase we did not need the full blown result. We were mainly interested in the distance. This is why we added some hints to the request in the example above. It tells GraphHopper to suppress the instructions and the waypoints which speeds up the calculation to some extend.
 
