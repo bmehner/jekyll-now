@@ -7,10 +7,10 @@ If you want to do routing in your application (the kind of routing that involves
 
 ![GraphHopper-Logo](/images/graphhopper-logo-small-300x51.png)
 
-In one of my recent projects we needed to calculate the distance between an address of a customer and a list car repair shops. But the distance should not be calculated as the crow flies but instead the real distance to actually drive there by car. The exact requirements were:
+In one of my recent projects we needed to calculate the distance between an address of a customer and a list of car repair shops. But the distance should not be calculated as the crow flies. Instead we needed to calculate the real distance to actually drive there by car. The exact requirements were:
 
 * Easy to use from a Java application
-* Fast calculation: The list of car repair shops could be as long as 60 different ones. The distance to all of those should be calculated in less than 5 seconds.
+* Fast calculation: The list of car repair shops could be as long as 20 different ones. The distance to all of those should be calculated in less than 5 seconds.
 * No personal information should be sent to a third party because we need to stick to the General Data Protection Regulation of the EU.
 * Calculation of the distance as the car drives.
 
