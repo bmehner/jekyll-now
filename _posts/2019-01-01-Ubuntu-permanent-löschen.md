@@ -11,3 +11,7 @@ und im Kontextmenü gibt es dafür keinen Eintrag. Das lässt sich jedoch änder
 Im Dateimanager von Gnome geht man dazu in Einstellungen -> Verhalten. Dort aktiviert man die Option 
 "Aktion zum dauerhaften Löschen anzeigen". Nun findet man im Kontextmenü den neuen Eintrag "Dauerhaft löschen".
 Daneben wird dann auch die passende Tastenkombination angezeigt.
+
+![Screenshot Kontextmenü](/images/2019-01-01_Kontextmenu_dauerhaft_loeschen.png)
+
+ 	
