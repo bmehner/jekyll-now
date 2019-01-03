@@ -9,7 +9,12 @@ Um Files dauerhaft zu löschen gibt es die Tastenkombination Shift-Entf. Leider 
 und im Kontextmenü gibt es dafür keinen Eintrag. Das lässt sich jedoch ändern.
 
 Im Dateimanager von Gnome geht man dazu in Einstellungen -> Verhalten. Dort aktiviert man die Option 
-"Aktion zum dauerhaften Löschen anzeigen". Nun findet man im Kontextmenü den neuen Eintrag "Dauerhaft löschen".
+"Aktion zum dauerhaften Löschen anzeigen". 
+
+![Screenshot Einstellung](/images/2019-01-01_Einstellung.png)
+
+
+Nun findet man im Kontextmenü den neuen Eintrag "Dauerhaft löschen".
 Daneben wird dann auch die passende Tastenkombination angezeigt.
 
 ![Screenshot Kontextmenü](/images/2019-01-01_Kontextmenu_dauerhaft_loeschen.png)
